@@ -35,6 +35,7 @@ const PostForm = () => {
 
   return (
     <form className="post-form" onSubmit={handleSubmit}>
+        <h1>What do you want to ask or Share?</h1>
       <h2>Create New {postType}</h2>
 
       <div className="post-type">
